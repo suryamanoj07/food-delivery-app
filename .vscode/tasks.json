@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Add Git Remote",
+			"type": "shell",
+			"command": "cd \"c:\\Users\\17001\\OneDrive\\Desktop\\food_ordering_java\" && git remote add origin https://github.com/suryamanoj07/food-delivery-app.git"
+		},
+		{
+			"label": "Add Git Remote",
+			"type": "shell",
+			"command": "cd \"c:\\Users\\17001\\OneDrive\\Desktop\\food_ordering_java\"; git remote add origin https://github.com/suryamanoj07/food-delivery-app.git"
+		},
+		{
+			"label": "Add Git Remote",
+			"type": "shell",
+			"command": "git remote add origin https://github.com/suryamanoj07/food-delivery-app.git"
+		},
+		{
+			"label": "Check Git Status",
+			"type": "shell",
+			"command": "git status"
+		},
+		{
+			"label": "Initialize Git",
+			"type": "shell",
+			"command": "git init"
+		},
+		{
+			"label": "Add Git Remote",
+			"type": "shell",
+			"command": "git remote add origin https://github.com/suryamanoj07/food-delivery-app.git"
+		}
+	]
+}

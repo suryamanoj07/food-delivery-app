@@ -3,6 +3,10 @@
 This is a full-stack online food delivery platform with three main components:
 
 ---
+<img width="1370" height="1055" alt="ss1" src="https://github.com/user-attachments/assets/3943b3dc-1f44-4570-a1e5-45e9c9a92ce7" />
+<img width="1083" height="1055" alt="ss2" src="https://github.com/user-attachments/assets/66b2ab7d-5c51-48d0-99fd-3fcfc467878f" />
+<img width="1056" height="1055" alt="ss3" src="https://github.com/user-attachments/assets/26543fe8-73e1-47f2-b1a9-66ceafc1ffac" />
+
 
 ## 🧩 Backend (foodiesapi) — Spring Boot (Java 21)
 
@@ -120,28 +124,29 @@ The application follows:
 ## 🚀 Getting Started
 
 ### Clone the repository
-```bash
-git clone https://github.com/suryamanoj07/food-delivery-app.git
-cd food-delivery-app
-Backend Setup
-cd backend
-mvn spring-boot:run
-Frontend Setup (User)
-cd frontend
-npm install
-npm run dev
-Admin Panel Setup
-cd admin
-npm install
-npm run dev
-📌 Note
+- git clone https://github.com/suryamanoj07/food-delivery-app.git
+- cd food-delivery-app
 
-Make sure to configure:
+## Backend Setup
+- cd backend
+- mvn spring-boot:run
 
+## Frontend Setup (User)
+- cd frontend
+- npm install
+- npm run dev
+
+## Admin Panel Setup
+- cd admin
+- npm install
+- npm run dev
+
+
+## Make sure to configure:
 MongoDB connection
 JWT secret key
 AWS S3 credentials
 
 
-📬 Author
+## 📬 Author
 Surya Manoj

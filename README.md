@@ -1,0 +1,147 @@
+# 🍔 Food Ordering Application
+
+This is a full-stack online food delivery platform with three main components:
+
+---
+
+## 🧩 Backend (foodiesapi) — Spring Boot (Java 21)
+
+- **Framework:** Spring Boot 3.4.3 with REST API  
+- **Database:** MongoDB (NoSQL)  
+- **Authentication:** Spring Security + JWT (jjwt)  
+- **Storage:** AWS S3 for images  
+
+### 🔑 Key Entities
+- User  
+- Food  
+- Cart  
+- Order  
+
+### 🎮 Controllers
+- Auth Controller  
+- User Controller  
+- Food Controller  
+- Cart Controller  
+- Order Controller  
+
+### ⚙️ Services
+- User/Auth Services  
+- Food Services  
+- Cart Services  
+- Order Services  
+- Implemented using interfaces + implementations  
+
+### 🔐 Configuration
+- SecurityConfig (JWT authentication & authorization)  
+- AWSConfig (S3 integration)  
+
+---
+
+## 💻 Frontend - Foodies (React + Vite)
+
+Customer-facing application for browsing and ordering food.
+
+### 📦 Key Dependencies
+- React 18.2  
+- React Router 7  
+- Axios  
+- Bootstrap  
+- Razorpay (payment)  
+
+### 📄 Pages
+- Home  
+- ExploreFood  
+- FoodDetails  
+- Cart  
+- PlaceOrder  
+- MyOrders  
+- Contact  
+
+### 🧱 Components
+- Header  
+- Menubar  
+- Login/Register  
+- FoodDisplay  
+- ExploreMenu  
+- FoodItem  
+
+### 🌐 State Management
+- Global StoreContext  
+
+### 🔗 Services (API Calls)
+- authService  
+- foodService  
+- cartService  
+- orderService  
+
+---
+
+## 🛠️ Frontend - Admin Panel (React + Vite)
+
+Admin dashboard for restaurant management.
+
+### 📦 Key Dependencies
+- React 19  
+- React Router 7  
+- Axios  
+- Bootstrap  
+
+### 🧱 Components
+- Menubar  
+- Sidebar  
+
+### 🎯 Purpose
+- Admin controls for food and order management  
+
+---
+
+## ✅ Key Functionalities
+
+- User authentication & JWT authorization  
+- Browse and search food items  
+- Shopping cart management  
+- Order placement and tracking  
+- Payment integration (Razorpay)  
+- Admin panel for food and order management  
+- AWS S3 image storage  
+
+---
+
+## 🏗️ Architecture
+
+The application follows:
+
+- 3-tier architecture (Frontend, Backend, Database)  
+- RESTful API design  
+- MVC pattern on the backend  
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/suryamanoj07/food-delivery-app.git
+cd food-delivery-app
+Backend Setup
+cd backend
+mvn spring-boot:run
+Frontend Setup (User)
+cd frontend
+npm install
+npm run dev
+Admin Panel Setup
+cd admin
+npm install
+npm run dev
+📌 Note
+
+Make sure to configure:
+
+MongoDB connection
+JWT secret key
+AWS S3 credentials
+
+
+📬 Author
+Surya Manoj

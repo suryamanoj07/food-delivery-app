@@ -4,7 +4,10 @@ This is a full-stack online food delivery platform with three main components:
 
 ---
 <img width="1370" height="1055" alt="ss1" src="https://github.com/user-attachments/assets/3943b3dc-1f44-4570-a1e5-45e9c9a92ce7" />
-<img width="483" height="555" alt="ss2" src="https://github.com/user-attachments/assets/66b2ab7d-5c51-48d0-99fd-3fcfc467878f" /> <img width="456" height="555" alt="ss3" src="https://github.com/user-attachments/assets/26543fe8-73e1-47f2-b1a9-66ceafc1ffac" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/66b2ab7d-5c51-48d0-99fd-3fcfc467878f" width="45%" />
+  <img src="https://github.com/user-attachments/assets/26543fe8-73e1-47f2-b1a9-66ceafc1ffac" width="45%" />
+</p>
 
 
 
